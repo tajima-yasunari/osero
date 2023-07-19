@@ -8,6 +8,27 @@
   padding: 0 0.5rem;
 }
 
+.board {
+  background-color: green;
+  height: 640px;
+  width: 640px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boarder {
+  border: solid 3px black;
+  height: 80px;
+  width: 80px;
+}
+
+.disk {
+  background-color: black;
+  height: 73px;
+  width: 73px;
+  border-radius: 50%;
+}
+
 .main {
   display: flex;
   flex: 1;
