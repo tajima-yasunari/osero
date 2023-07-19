@@ -66,6 +66,7 @@ const Home = () => {
     <div className={styles.container}>
       <>{blackCount()}</>
       <>{whiteCount()}</>
+      <>{['', 'black turn', 'white turn'][turnColor]}</>
       <div className={styles.board}>
         {board.map((row, y) =>
           row.map((color, x) => (
